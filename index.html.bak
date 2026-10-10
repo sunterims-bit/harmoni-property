@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harmoni Park Group - Hunian Impian Keluarga Modern</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+<div class="container nav-inner">
+<a href="#home" class="logo">Harmoni<span>Park</span></a>
+<ul class="nav-links">
+<li><a href="#home" class="active">Beranda</a></li>
+<li><a href="#about">Tentang Kami</a></li>
+<li><a href="#projects">Produk</a></li>
+<li><a href="#blog">Berita</a></li>
+<li><a href="#contact">Kontak</a></li>
+</ul>
+<a href="#contact" class="btn btn-primary nav-cta">Hubungi Kami</a>
+<button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</div>
+</nav>
+
+<section class="hero hero-promo" id="home">
+<div class="container hero-split">
+<div class="hero-text">
+<span class="hero-badge">Promo Spesial</span>
+<h1 class="hero-title">Harmoni Fest 2026</h1>
+<p class="hero-subtitle">Booking <strong>1JT</strong> langsung pindah! DP Rp 0, cicilan Rp 1,2 JT/bulan, subsidi angsuran 1 tahun. Berlaku 1 Juli - 15 Desember 2026.</p>
+<div class="hero-actions">
+<a href="#projects" class="btn btn-primary">Lihat Properti</a>
+<a href="#contact" class="btn btn-outline">Konsultasi Gratis</a>
+</div>
+<ul class="hero-highlights">
+<li><i class="fas fa-check-circle"></i> DP Rp 0</li>
+<li><i class="fas fa-check-circle"></i> Cicilan Rp 1,2 JT/bln</li>
+<li><i class="fas fa-check-circle"></i> Bonus Kanopi</li>
+<li><i class="fas fa-check-circle"></i> Free IPTL 1 Tahun</li>
+</ul>
+</div>
+<div class="hero-flyer-wrap">
+<img src="assets/images/hero-promo.jpg" alt="Promo Harmoni Fest 2026" class="hero-flyer">
+</div>
+</div>
+</section>
+
+<section class="section" id="about">
+<div class="container">
+<div class="section-header reveal">
+<span class="section-label">Tentang Kami</span>
+<h2 class="section-title">Harmoni Park Group</h2>
+<p class="section-desc">Sebagai anak perusahaan Vista Land Group, kami berfokus pada pengembangan perumahan komersial di kawasan Bogor, Bekasi, Tangerang, dan Serang. Berdiri sejak 2019, kami telah meraih berbagai penghargaan bergengsi.</p>
+</div>
+<div class="stats-grid">
+<div class="stat-item reveal"><span class="stat-number" data-count="3300">0</span><span class="stat-label">Unit Terbangun</span></div>
+<div class="stat-item reveal"><span class="stat-number" data-count="40">0</span><span class="stat-label">Hektar Lahan</span></div>
+<div class="stat-item reveal"><span class="stat-number" data-count="6">0</span><span class="stat-label">Proyek Aktif</span></div>
+<div class="stat-item reveal"><span class="stat-number" data-count="17">0</span><span class="stat-label">Tahun Pengalaman</span></div>
+</div>
+</div>
+</section>
+
+<section class="section section-produk" id="projects">
+<div class="container">
+<div class="section-header reveal">
+<span class="section-label">Produk Kami</span>
+<h2 class="section-title">Tipe Rumah &amp; Fasilitas</h2>
+<p class="section-desc">Pilihan tipe rumah yang dirancang untuk kenyamanan keluarga modern. Klik gambar untuk melihat detail lengkap.</p>
+</div>
+
+<div class="produk-grid">
+
+<article class="produk-card reveal" onclick="openLightbox('assets/images/produk-tipe.jpg', 'Tipe Rumah: Aurora, Gisli, Tropiska, Amour')">
+<div class="produk-image">
+<img src="assets/images/produk-tipe.jpg" alt="Tipe Rumah Harmoni Park" loading="lazy">
+<div class="produk-hover">
+<i class="fas fa-search-plus"></i>
+<span>Klik untuk perbesar</span>
+</div>
+</div>
+<div class="produk-info">
+<span class="produk-tag">4 Tipe Unggulan</span>
+<h3>Aurora &bull; Gisli &bull; Tropiska &bull; Amour</h3>
+<p>Luas tanah 27-45 m², luas bangunan 60-90 m². Setiap tipe dirancang dengan konsep modern minimalis.</p>
+<ul class="produk-specs">
+<li><i class="fas fa-bed"></i> 2-3 Kamar Tidur</li>
+<li><i class="fas fa-bath"></i> 1-2 Kamar Mandi</li>
+<li><i class="fas fa-car"></i> Carport</li>
+</ul>
+</div>
+</article>
+
+<article class="produk-card reveal" onclick="openLightbox('assets/images/produk-spesifikasi.jpg', 'Spesifikasi Lengkap &amp; Denah Rumah')">
+<div class="produk-image">
+<img src="assets/images/produk-spesifikasi.jpg" alt="Spesifikasi Rumah Harmoni Park" loading="lazy">
+<div class="produk-hover">
+<i class="fas fa-search-plus"></i>
+<span>Klik untuk perbesar</span>
+</div>
+</div>
+<div class="produk-info">
+<span class="produk-tag">Spesifikasi Lengkap</span>
+<h3>Detail Konstruksi &amp; Denah</h3>
+<p>Pondasi pancang beton, dinding bata ringan, finishing cat exterior &amp; interior Ex Propan, atap genteng beton.</p>
+<ul class="produk-specs">
+<li><i class="fas fa-check-circle"></i> Listrik PLN 1300 VA</li>
+<li><i class="fas fa-check-circle"></i> Air Sumur PDAM</li>
+<li><i class="fas fa-check-circle"></i> Smart Door Lock</li>
+</ul>
+</div>
+</article>
+
+<article class="produk-card reveal" onclick="openLightbox('assets/images/produk-cluster.jpg', 'Cluster Birka - Fasilitas &amp; Lokasi')">
+<div class="produk-image">
+<img src="assets/images/produk-cluster.jpg" alt="Cluster Birka Harmoni Park" loading="lazy">
+<div class="produk-hover">
+<i class="fas fa-search-plus"></i>
+<span>Klik untuk perbesar</span>
+</div>
+</div>
+<div class="produk-info">
+<span class="produk-tag">Cluster Birka</span>
+<h3>Fasilitas &amp; Lokasi Strategis</h3>
+<p>Club House, One Gate System, Swimming Pool, Jogging Track, Playground, Mini Zoo, dan lokasi dekat tol &amp; stasiun.</p>
+<ul class="produk-specs">
+<li><i class="fas fa-road"></i> 20 mnt ke Tol Gabus</li>
+<li><i class="fas fa-train"></i> 35 mnt ke Stasiun Bekasi</li>
+<li><i class="fas fa-store"></i> Dekat Summarecon Mall</li>
+</ul>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- Lightbox Modal -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+<button class="lightbox-close" onclick="closeLightbox(event)" aria-label="Tutup">&times;</button>
+<div class="lightbox-content">
+<img id="lightboxImg" src="" alt="">
+<p id="lightboxCaption"></p>
+</div>
+</div>
+
+<section class="section" id="blog">
+<div class="container">
+<div class="section-header reveal">
+<span class="section-label">Berita dan Artikel</span>
+<h2 class="section-title">Informasi Terbaru</h2>
+<p class="section-desc">Tips dan berita seputar properti dan hunian.</p>
+</div>
+<div class="blog-grid">
+
+<article class="blog-card reveal">
+<img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80" alt="Blog 1">
+<div class="blog-body">
+<span class="blog-date">30 September 2026</span>
+<h3><a href="#">Memiliki Hunian Bukan Hanya Tentang Tempat Pulang</a></h3>
+<p>Lingkungan yang mendukung keseharian penghuninya menjadi faktor penting dalam memilih rumah.</p>
+<a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+</div>
+</article>
+
+<article class="blog-card reveal">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Blog 2">
+<div class="blog-body">
+<span class="blog-date">15 September 2026</span>
+<h3><a href="#">Panduan Lengkap Mengajukan KPR untuk Milenial</a></h3>
+<p>Simak langkah-langkah dan syarat yang perlu disiapkan sebelum mengajukan KPR pertama Anda.</p>
+<a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+</div>
+</article>
+
+<article class="blog-card reveal">
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80" alt="Blog 3">
+<div class="blog-body">
+<span class="blog-date">02 September 2026</span>
+<h3><a href="#">5 Tren Desain Interior Rumah Minimalis 2026</a></h3>
+<p>Inspirasi desain interior terkini untuk membuat hunian Anda lebih nyaman dan estetik.</p>
+<a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<footer class="footer" id="contact">
+<div class="container">
+<div class="footer-grid">
+<div>
+<a href="#home" class="logo" style="color:#fff;">Harmoni<span>Park</span></a>
+<p style="margin-top:1rem;">Agen properti terpercaya yang telah membangun lebih dari 3.300 unit hunian berkualitas di wilayah Jabodetabek sejak 2009.</p>
+<div class="footer-social">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+<div>
+<h4>Perusahaan</h4>
+<ul class="footer-links">
+<li><a href="#about">Tentang Kami</a></li>
+<li><a href="#projects">Properti</a></li>
+<li><a href="#blog">Berita</a></li>
+<li><a href="#contact">Kontak</a></li>
+</ul>
+</div>
+<div>
+<h4>Proyek</h4>
+<ul class="footer-links">
+<li><a href="#">Harmoni Park Residence</a></li>
+<li><a href="#">Harmoni Garden Estate</a></li>
+<li><a href="#">Harmoni Serpong Park</a></li>
+<li><a href="#">Harmoni Cilegon</a></li>
+</ul>
+</div>
+<div>
+<h4>Kontak</h4>
+<p><i class="fas fa-map-marker-alt"></i> Jl. Raya Bogor No. 123, Jakarta</p>
+<p><i class="fas fa-phone"></i> +62 21 1234 5678</p>
+<p><i class="fas fa-envelope"></i> info@harmoniparkgroup.com</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2026 Harmoni Park Group. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+function openLightbox(src, caption) {
+  const box = document.getElementById('lightbox');
+  const img = document.getElementById('lightboxImg');
+  const cap = document.getElementById('lightboxCaption');
+  if (box && img) {
+    img.src = src;
+    cap.textContent = caption || '';
+    box.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeLightbox(e) {
+  if (e && e.stopPropagation && e.target.closest('.lightbox-content') && !e.target.closest('.lightbox-close')) {
+    return;
+  }
+  const box = document.getElementById('lightbox');
+  if (box) {
+    box.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeLightbox();
+});
+</script>
+</body>
+</html>
+
+
+
